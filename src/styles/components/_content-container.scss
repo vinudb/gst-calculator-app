@@ -1,5 +1,22 @@
 .content-container {
   margin: 0 auto;
-  padding: 0 $m-size;
+  padding: $m-size $s-size;
   max-width: 80rem;
+}
+
+.display-flex{
+  display: flex;
+  flex-direction: column;
+  @media (min-width: $desktop-breakpoint) {
+    flex-direction: row;
+  }
+}
+
+.checkbox-container{
+  padding: $m-size $s-size;
+  background: $light-grey; 
+}
+
+.margin-bottom{
+  margin-bottom: $m-size;
 }

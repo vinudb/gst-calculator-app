@@ -1,5 +1,5 @@
 .header {
-  background: $dark-blue;
+  background: $blue;
 }
 
 .header__content {
@@ -15,4 +15,10 @@
   h1 {
     margin: 0;
   }
+}
+
+.gstResults{
+  margin: 0;
+  font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+  color: $blue;
 }
